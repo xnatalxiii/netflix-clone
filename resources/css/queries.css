@@ -1,0 +1,193 @@
+/*-------------------------------------------------
+
+	- Proyect: Netflix ClonePage
+	- Date: Jan 2020
+	- Author: Bryan Rodríguez
+	- Disclaimer: This project was made to practice web dev skills with educational non-profit purposes
+
+-------------------------------------------------*/
+
+@media only screen and (min-width: 1800px) {
+	html,
+	body {
+		font-size: 70.5%;
+	}
+	header {
+		height: 75vh;
+	}
+	.header-container {
+		padding-top: 15vh;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	header {
+		height: 90vh;
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+	html,
+	body {
+		font-size: 57.5%;
+	}
+	.header-container {
+		padding-top: 18vh;
+		max-width: 70rem;
+	}
+	.phone-card {
+		top: 70%;
+		width: 24rem;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	html,
+	body {
+		font-size: 53.5%;
+	}
+
+	.header-container {
+		padding-top: 10vh;
+		max-width: 65rem;
+	}
+
+	section {
+		min-height: 45rem;
+	}
+	.email-input {
+		float: none;
+		display: block;
+
+		margin: 2rem auto;
+	}
+
+	.btn-big,
+	.btn-big:active {
+		display: block;
+		margin: 0 auto;
+		width: auto;
+	}
+
+	.footer-nav-item {
+		display: inline-block;
+		width: 31.5%;
+		margin: 0 0.5% 2rem 0;
+	}
+}
+
+@media only screen and (max-width: 680px) {
+	html,
+	body {
+		font-size: 52.5%;
+	}
+
+	.header-container h1 {
+		font-size: 5rem;
+		padding: 0 3rem;
+		margin: 0 auto 2rem auto;
+	}
+
+	.span-1-of-2 {
+		width: 98%;
+	}
+
+	.header-container {
+		padding-top: 10vh;
+	}
+
+	.text-container {
+		margin: 3rem 0;
+	}
+	.video {
+		margin-top: 6rem;
+	}
+
+	.only-mobile {
+		display: block;
+	}
+
+	.hide-mobile {
+		display: none;
+	}
+
+	.video-dev {
+		margin-top: 6rem;
+	}
+
+	section {
+		min-height: 78rem;
+	}
+
+	section h1,
+	section h2 {
+		text-align: center;
+	}
+
+	.phone-card {
+		position: absolute;
+		top: 85%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 12rem;
+		width: 35rem;
+		border: 2px solid #777;
+		background-color: black;
+		border-radius: 1rem;
+	}
+
+	.phone-card .box {
+		height: 11rem;
+		width: auto;
+		float: left;
+		margin: 0.5rem 1rem;
+	}
+
+	.phone-card .download {
+		height: 6rem;
+		width: auto;
+		float: right;
+		margin: 2rem 1rem;
+	}
+
+	.text-0 {
+		text-align: left;
+		margin: 4rem 0 0.5rem 1rem;
+		display: block;
+		font-size: 1.9rem;
+	}
+
+	.text-1 {
+		text-align: left;
+		margin: 0rem 1rem;
+		display: block;
+		color: #0071eb;
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	html,
+	body {
+		font-size: 48%;
+	}
+
+	.header-container h1 {
+		font-size: 4.5rem;
+		padding: 0 1rem;
+		margin: 0 auto 1.5rem auto;
+	}
+
+	.phone-container .phone {
+		width: 100%;
+	}
+
+	section {
+		min-height: 70rem;
+	}
+	.footer-nav-item {
+		display: inline-block;
+		width: 48.5%;
+		margin: 0 0.5% 2rem 0;
+	}
+}
